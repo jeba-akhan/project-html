@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+
+   
+}
+img{
+    display: block;
+}
+
+.flex{
+    display: flex;
+}
+
+.aicenter{
+    align-items: center;
+}
+
+.jcenter{
+    justify-content: center;
+}
+
+.jbetween{
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFC178;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    display: inline-block;
+   
+  }
+
+  .subheading{
+    font-weight: 700;
+    font-size: 64px;
+    color: aliceblue;
+    text-transform: uppercase;
+    
+  }
+
+  .details{
+    font-size: 14px;
+    font-weight: 600;
+    color: aliceblue;
+    text-transform: uppercase;
+    line-height: 32px;
+  }
+
+ .read{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+    
+}
+
+.white{
+    color: white;
+}
+
+.bgblack{
+    background-color: #040301;
+}
+
+/* ================================================ */
+
+nav{
+    position: absolute;
+    top: 28px;
+    width: 100%;
+
+
+}
+
+nav .logo a{
+    display: block;
+ 
+ }
+
+ nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+ }
+
+ nav .container .menu ul{
+   
+    column-gap: 60px;
+ } 
+
+ nav .container .menu ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+ }
+
+ nav .container .menu ul li .active{
+    color: #040301;
+ }
+
+ nav .container .menu ul li a:hover{
+    color: #040301;
+ }
+
+ /* =================================== */
+  /* =================================== */
+
+  #banner{
+   padding: 462px 0;
+    background:url(../images/banner.jpg) no-repeat center /cover;
+   
+  }
+
+  #banner .container .title{
+    margin-bottom: 37px;
+  }
+
+  
+  #banner .container h1{
+    font-size: 96px;
+    font-weight: 700;
+    max-width: 860px;
+    text-transform: capitalize;
+
+  }
+
+  
+  #banner .container h1 span{
+    font-size: 88px;
+    font-weight: 400;
+  }
+
+   /* =================================== */
+    /* =================================== */
+
+    #holiday{
+        padding: 319px;
+       
+    }
+    #holiday .container {
+        column-gap: 23px;
+
+    }
+
+    #holiday .container .left{
+        width: 50%;
+
+    }
+
+    #holiday .container .left img{
+        width: 100%;
+    }
+
+    #holiday .container .right{
+    
+        width: 50%;
+        padding-top: 45px;
+
+    }
+
+    #holiday .container h2{
+        margin: 13px 0;
+        min-width: 513px;
+        
+    }
+
+    
+    #holiday .container p{
+      
+        margin-bottom: 66px ;
+        max-width: 587px;
+    }
+
+     /* =================================== */
+     /* =================================== */
+
+     #bromo{
+        padding: 295px 0;
+       
+     }
+
+     #bromo .container{
+        padding: 559px 0 32px;
+       background: url(../images/bromo.jpg) no-repeat center /cover;
+        text-align: center;
+     }
+
+     #bromo .container h2{
+        max-width:932px;
+        margin: 13px auto ;
+    
+       
+     }
+
+     #bromo .container p{
+        max-width:893px;
+        margin: 0 auto 27px;
+     }
+
+     /* =================================== */
+     /* =================================== */
+
+     #culture{
+        padding: 295px 0;
+      
+     }
+     .culture .container{
+        flex-direction: row-reverse;
+       
+     }
+     #culture .container{
+        column-gap: 37px;
+        
+     }
+    
+     #culture .container h2{
+        max-width: 663px;
+        margin: 19px 0 ;
+     }
+
+     #culture .container p{
+        max-width: 655px;
+        margin-bottom: 47px;
+     }
+
+      #culture .container .left{
+        width: 50%;
+
+    }
+
+    #holiday .container .left img{
+        width: 100%;
+    }
+
+    #culture .container .right{
+    
+        width: 50%;
+        padding-top: 153px;
+
+    }
+
+     /* =================================== */
+       /* =================================== */
+
+     #footer1{
+        padding: 190px 0;
+       
+     }
+
+     #footer1 .container h3{
+        margin-top: 82px;
+        max-width: 404px;
+        font-size:36px ;
+        color: aliceblue;
+     }
+
+     #footer1 .container a{
+        margin-top: 48px;
+        max-width: 135px;
+        font-size:15px ;
+        font-weight: 400;
+        color: aliceblue;
+     }
+     #footer1 .icon{
+       column-gap: 29px;
+     }
+
+     #footer1 .icon a{
+        color: aliceblue;
+        font-size: 20px;
+     }
+
+     #footer1 .right a{
+        color: aliceblue;
+        
+     }
+
+     #footer1 .container .button{
+        padding: 20px 80px;
+        background-color: #d19302;
+        color: #000606;
+        border: #dfcc9f solid;
+        border-radius: 10px;
+        margin-left: 18px;
+    
+     }
+
+     #footer1 .container .right ul li a {
+       
+       font-size: 20px;
+     }
+
+     #footer1 .container .right ul{
+        padding-right: 80px;
+        margin-top: 30px;
+     }
+
+     #footer1 .container .right ul li .active{
+        color: #FBD784;
+      }
+ 
+     
+         /* =================================== */
+
+ 
+
+ 
+
+ 
